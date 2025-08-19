@@ -62440,7 +62440,7 @@
           {
             "kind": "Function",
             "name": "createOrder",
-            "printedName": "createOrder(requestId:amount:productName:bType:bInfo:onFailed:retryCount:)",
+            "printedName": "createOrder(requestId:amount:productName:bType:bInfo:metaData:onFailed:retryCount:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -62486,6 +62486,33 @@
                 "usr": "s:SS"
               },
               {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
                 "kind": "TypeFunc",
                 "name": "Function",
                 "printedName": "([Swift.String : Any]) -> ()",
@@ -62525,8 +62552,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13NPayFramework0A7ManagerC11createOrder9requestId6amount11productName5bType5bInfo8onFailed10retryCountySSSg_S4SySDySSypGcSitF",
-            "mangledName": "$s13NPayFramework0A7ManagerC11createOrder9requestId6amount11productName5bType5bInfo8onFailed10retryCountySSSg_S4SySDySSypGcSitF",
+            "usr": "s:13NPayFramework0A7ManagerC11createOrder9requestId6amount11productName5bType5bInfo8metaData8onFailed10retryCountySSSg_S4SSDySSypGSgyANcSitF",
+            "mangledName": "$s13NPayFramework0A7ManagerC11createOrder9requestId6amount11productName5bType5bInfo8metaData8onFailed10retryCountySSSg_S4SSDySSypGSgyANcSitF",
             "moduleName": "NPayFramework",
             "isOpen": true,
             "declAttributes": [
@@ -122312,140 +122339,140 @@
     {
       "filePath": "\/Users\/vihoang\/Documents\/iOS\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 19629,
+      "offset": 19663,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vihoang\/Documents\/iOS\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 25564,
+      "offset": 25932,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vihoang\/Documents\/iOS\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 25895,
+      "offset": 26263,
       "length": 2,
       "value": "21"
     },
     {
       "filePath": "\/Users\/vihoang\/Documents\/iOS\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 25898,
+      "offset": 26266,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/vihoang\/Documents\/iOS\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 25910,
+      "offset": 26278,
       "length": 3,
       "value": "174"
     },
     {
       "filePath": "\/Users\/vihoang\/Documents\/iOS\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 25914,
+      "offset": 26282,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/vihoang\/Documents\/iOS\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 25925,
+      "offset": 26293,
       "length": 2,
       "value": "98"
     },
     {
       "filePath": "\/Users\/vihoang\/Documents\/iOS\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 25928,
+      "offset": 26296,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/vihoang\/Documents\/iOS\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 25940,
+      "offset": 26308,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vihoang\/Documents\/iOS\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "StringLiteral",
-      "offset": 27231,
+      "offset": 27599,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vihoang\/Documents\/iOS\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "StringLiteral",
-      "offset": 27262,
+      "offset": 27630,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vihoang\/Documents\/iOS\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "StringLiteral",
-      "offset": 27363,
+      "offset": 27731,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/vihoang\/Documents\/iOS\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "StringLiteral",
-      "offset": 27397,
+      "offset": 27765,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vihoang\/Documents\/iOS\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "StringLiteral",
-      "offset": 27539,
+      "offset": 27907,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vihoang\/Documents\/iOS\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 31056,
+      "offset": 31424,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vihoang\/Documents\/iOS\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 31814,
+      "offset": 32182,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vihoang\/Documents\/iOS\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 32926,
+      "offset": 33294,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vihoang\/Documents\/iOS\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 33548,
+      "offset": 33916,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vihoang\/Documents\/iOS\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 34156,
+      "offset": 34524,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vihoang\/Documents\/iOS\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 34818,
+      "offset": 35186,
       "length": 4,
       "value": "true"
     },
